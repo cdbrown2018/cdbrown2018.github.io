@@ -14,6 +14,14 @@
 
 get_header('main');
 ?>
+<style>
+	a {
+		color: white;
+	}
+	a:visited, a:hover {
+		color: white;
+	}
+</style>
 			<div id="primary" class="content-area">
 				<img class = "intro-img" src="<?php echo site_url();?>/wp-content/uploads/2018/06/IMG_0107-e1527997235976.jpg" id="feature_img">
 				<div id = "intro-text">christopher brown</div>
@@ -38,7 +46,7 @@ get_header('main');
 					<h1>noteable projects</h1>
 					<ul>
 						<li>this website</li>
-						<li>ginghamsburg application</li>
+						<li><a href="<?php echo site_url(); ?>/project/test-project">ginghamsburg application</a></li>
 						<li>ohio christian university crm</li>
 					</ul>
 				</div>

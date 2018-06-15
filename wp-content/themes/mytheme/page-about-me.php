@@ -12,10 +12,10 @@
  * @package MyTheme
  */
 
-get_header();
+get_header('about');
 ?>
-<div class="container">
-	<div class="row">
+<div class="container" id="about-me-container">
+	<div class="row" id="about-me-row">
 		<div class="col-sm-7">
 			<div id="primary" class="content-area">
 				<main id="main" class="site-main">
