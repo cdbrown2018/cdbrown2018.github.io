@@ -136,6 +136,25 @@
   transform: translate(-50%, -50%);
 }
 
+#intro {
+  position: relative;
+}
+
+#down-arrow {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+}
+
+#down-svg {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  height: 10vh;
+  transform: translate(-50%, 0);
+}
+
 .container {
   padding-top: 20px;
 }
