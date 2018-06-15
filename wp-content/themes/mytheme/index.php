@@ -33,14 +33,14 @@ get_header('main');
 			<script>
 				function myMove() {
 					var elem = document.getElementById("down-svg");
-					var up = true;
-					var pos = -1;
+					var up = false;
+					var pos = -35;
 					var id = setInterval(frame, 15);
 					function frame() {
 							if (up && pos > -35) {
-									elem.style.top = pos-- - 50 + 'px';
+									elem.style.top = pos-- - 60 + 'px';
 							} else if (!up && pos < 0) {
-								elem.style.top = pos++ - 50 + 'px';
+								elem.style.top = pos++ - 60 + 'px';
 							}
 							else {
 								up = !up;
