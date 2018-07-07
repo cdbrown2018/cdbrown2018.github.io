@@ -156,12 +156,22 @@
   color: #4c4c4c70;
 }
 
+#information {
+  border-bottom: 1px solid #cacaca;
+  margin-bottom: 10px;
+}
+
 .container {
   padding-top: 20px;
 }
 
 a:hover{
   text-decoration: none !important;
+}
+
+.LI-profile-badge {
+  margin: 0 auto;
+  width: 250px;
 }
 
 

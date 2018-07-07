@@ -47,7 +47,22 @@ get_header('main');
 							}
 					}
 				}
+
+				var i = 0;
+				var txt = document.getElementById("intro-text").innerHTML;
+				var speed = 25;
+				document.getElementById("intro-text").innerHTML = "";
+
+				function typeWriter() {
+				  if (i < txt.length) {
+				    document.getElementById("intro-text").innerHTML += txt.charAt(i);
+				    i++;
+				    setTimeout(typeWriter, speed*i);
+				  }
+				}
+
 				myMove();
+				typeWriter();
 			</script>
 
 			<!-- About me summary -->
